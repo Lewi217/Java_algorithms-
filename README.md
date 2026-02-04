@@ -74,7 +74,7 @@
 - [ ] Depth First Search (DFS)
 - [ ] Breadth First Search (BFS)
 - [ ] A* Search Algorithm
-- [ ] Dijkstra's Algorithm
+- [x] Dijkstra's Algorithm
 - [ ] Bellman-Ford Algorithm
 - [ ] Floyd-Warshall Algorithm
 - [ ] Bidirectional Search
