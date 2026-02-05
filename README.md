@@ -73,7 +73,7 @@
 - [ ] Fibonacci Search
 - [ ] Depth First Search (DFS)
 - [ ] Breadth First Search (BFS)
-- [ ] A* Search Algorithm
+- [x] A* Search Algorithm
 - [x] Dijkstra's Algorithm
 - [ ] Bellman-Ford Algorithm
 - [ ] Floyd-Warshall Algorithm
