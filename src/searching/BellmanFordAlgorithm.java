@@ -2,6 +2,16 @@ package searching;
 
 import java.util.*;
 
+/*
+  Bellman–Ford is a shortest path algorithm used to find the shortest distance from a starting node to all other nodes in a graph.
+
+It is similar to Dijkstra, BUT:
+
+Bellman–Ford can work with negative weights.
+
+That is the biggest difference.
+*\
+ */
 public class BellmanFordAlgorithm {
 
     // Edge class
