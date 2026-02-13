@@ -68,6 +68,17 @@ public class MergeSort {
 
         mergeSort(arr, 0, arr.length - 1);
 
+        /*
+        [3 and 5]
+                 [3,5]
+                 [1]
+                 [1,3,5]
+
+                 [4,6]
+                 [2,4,6]
+                 [1,2,3,4,5,6]
+
+           */
 
         System.out.println();
         System.out.println("after sorting");

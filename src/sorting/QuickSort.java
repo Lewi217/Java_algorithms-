@@ -36,6 +36,19 @@ public class QuickSort {
     public static void main(String[] args) {
         int arr[] = {5, 62, 2, 3, 111, 81, 4};
 
+        /*
+        small numbers -> left
+        bigger numbers -> right
+         2,5,62,3,111,81,4
+         5,62,3,111,81,4
+         3,5,62,111,81,4
+         5,62,111,81,4
+         [5,62,81,4]111
+         5,62,81,4
+         4,5,62,81
+         will run continuosly until sorted is completed ....
+
+         */
         quickSort(arr, 0, arr.length - 1);
 
         for(int num : arr){
