@@ -65,7 +65,7 @@
 ## Searching
 
 - [ ] Linear Search
-- [ ] Binary Search
+- [x] Binary Search
 - [ ] Jump Search
 - [ ] Interpolation Search
 - [ ] Exponential Search
@@ -75,7 +75,7 @@
 - [ ] Breadth First Search (BFS)
 - [x] A* Search Algorithm
 - [x] Dijkstra's Algorithm
-- [ ] Bellman-Ford Algorithm
+- [x] Bellman-Ford Algorithm
 - [ ] Floyd-Warshall Algorithm
 - [ ] Bidirectional Search
 - [ ] Iterative Deepening DFS (IDDFS)
