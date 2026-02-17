@@ -70,7 +70,7 @@
 - [ ] Interpolation Search
 - [ ] Exponential Search
 - [ ] Ternary Search
-- [ ] Fibonacci Search
+- [x] Fibonacci Search
 - [ ] Depth First Search (DFS)
 - [ ] Breadth First Search (BFS)
 - [x] A* Search Algorithm
