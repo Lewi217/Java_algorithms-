@@ -76,7 +76,7 @@
 - [x] A* Search Algorithm
 - [x] Dijkstra's Algorithm
 - [x] Bellman-Ford Algorithm
-- [ ] Floyd-Warshall Algorithm
+- [x] Floyd-Warshall Algorithm
 - [ ] Bidirectional Search
 - [ ] Iterative Deepening DFS (IDDFS)
 
