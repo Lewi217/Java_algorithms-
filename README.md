@@ -148,7 +148,7 @@
 
 ## Cryptography
 
-- [ ] Caesar Cipher
+- [x] Caesar Cipher
 - [ ] Substitution Cipher
 - [ ] Vigenere Cipher
 - [ ] Affine Cipher
