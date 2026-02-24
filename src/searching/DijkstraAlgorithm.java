@@ -54,7 +54,10 @@ class DijkstraAlgorithm {
                     pq.add(new int[]{distance[neighbor], neighbor});
                 }
             }
-        }
+        }  
+        // O(n log n) due to priority queue operations
+
+
 
         // Print shortest distances
         System.out.println("Shortest distances from source " + source + ":");

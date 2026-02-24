@@ -36,6 +36,7 @@ public class AStarAlgorithm {
             return Double.compare(this.f, other.f);
         }
     }
+    // A -> B cost =
 
     // Edge class
     static class Edge {
@@ -48,6 +49,10 @@ public class AStarAlgorithm {
         }
     }
 
+    // A -> B (cost = 1)
+    // A -> G estimated = 7
+    // B -> G estimated = 6
+    // G -> G  estimated  = 0
     // Graph
     static Map<String, List<Edge>> graph = new HashMap<>();
 
@@ -60,11 +65,12 @@ public class AStarAlgorithm {
         PriorityQueue<Node> openList = new PriorityQueue<>();
         Set<String> closedList = new HashSet<>();
         Map<String, Node> allNodes = new HashMap<>();
-
+// start  = A ,,,, goal = G
         Node startNode = new Node(start);
         startNode.g = 0;
         startNode.h = heuristic.get(start);
         startNode.calculateF();
+        // g= 0,,,h=7,,,f = 7
 
         openList.add(startNode);
         allNodes.put(start, startNode);
@@ -133,6 +139,15 @@ public class AStarAlgorithm {
 
         Goal = G
         */
+
+        //  joined part the 2 roads ....intersection
+        //  from A to F ....possible ...A-> C -> D -> F
+        //  A -> E -> F
+        // A -> B (F(n) = g(n) + h(n))   4, 6 , 10
+        // A -> C 3 , 4 , 7
+        // A -> E 6, 2, 8
+        // A* picks (a->c)
+
 
         // Graph connections
         graph.put("A", Arrays.asList(new Edge("B", 1), new Edge("C", 3)));
