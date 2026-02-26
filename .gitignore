@@ -2,6 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+java_algorithms.iml
 
 ### Eclipse ###
 .apt_generated
