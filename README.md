@@ -155,7 +155,7 @@
 - [ ] Rail Fence Cipher
 - [ ] Playfair Cipher
 - [ ] One-Time Pad
-- [ ] XOR Cipher
+- [x] XOR Cipher
 - [ ] Hash Functions – MD5, SHA-1, SHA-256
 - [ ] HMAC (Hash-based Message Authentication Code)
 - [ ] RSA – Key Generation, Encryption, Decryption
