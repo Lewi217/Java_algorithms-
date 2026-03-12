@@ -10,6 +10,34 @@ It is similar to Dijkstra, BUT:
 Bellman–Ford can work with negative weights.
 
 That is the biggest difference.
+
+if distance [u] + weight < distance[v]
+update distance [v]
+start  = A
+distance [A] = 0
+distance [B] = infinity
+distance [C] = infinity
+A --- B
+|\
+C \
+    \
+      D
+ for i  = 1 to V - 1
+  check all edges
+   Usd -> Kes -> euro -> rand
+   Usd -> kes  = +10
+   kes -> euro = +5
+   euro -> rand =+2
+    A higher mbps ....result to a higher pay ...due to the shortest distance travelled ...
+
+    A -> B = 2
+    B -> C =-4
+    C -> A = 1
+
+    2 + (-4) + 1 = -1 (negative cycle)
+
+    0(V  X  E)
+
 *\
  */
 public class BellmanFordAlgorithm {
