@@ -1,5 +1,13 @@
 package linked_list;
 
+/*
+ Circular Doubly Linked List implementation in Java
+ A circular doubly linked list is a data structure that consists of nodes where each node has a reference to both the next and previous nodes, and the last node points back to the first node, forming a circle. This allows for efficient insertion and deletion of nodes from both ends of the list, as well as easy traversal in both directions.
+ - Structure: nodes with prev and next pointers, plus a head reference. The last node's next points to head, and head's prev points to the last node.
+ - Common operations: insert (head/tail/middle), delete (given node), search, forward/backward traversal.
+ - Time complexity: access/search O(n), insertion/deletion O(1) if you already have the node reference.
+ - Tradeoffs: uses extra memory for the prev pointer and circular references, but allows for efficient bidirectional navigation and easy handling of edge cases (like deleting the head or tail).
+ */
 public class Circular_Doubly_Linked_List {
     // Node class
     static class Node {
