@@ -17,18 +17,27 @@ start  = A
 distance [A] = 0
 distance [B] = infinity
 distance [C] = infinity
-A --- B
-|\
+A --4- B
+1|\
 C \
-    \
+    5\
       D
+      a graph can have most V-1 edges ....
  for i  = 1 to V - 1
   check all edges
    Usd -> Kes -> euro -> rand
    Usd -> kes  = +10
    kes -> euro = +5
    euro -> rand =+2
-    A higher mbps ....result to a higher pay ...due to the shortest distance travelled ...
+   total gain= 17  this is called a negative cycle in graph (profit loop)
+    A higher mbps ....result to a higher pay ...due to the shortest distance traveled ...
+
+   A -> D (a -> b -> c -> d)
+   A -> B =4
+   A -> C =5
+   B -> C = -6
+   C -> D = 2
+   4+5+(-6)+2 = 5...
 
     A -> B = 2
     B -> C =-4
@@ -36,7 +45,10 @@ C \
 
     2 + (-4) + 1 = -1 (negative cycle)
 
-    0(V  X  E)
+    Time Complexity = 0(V  X  E)
+    V = Vertices
+    E = Edges
+
 
 *\
  */
@@ -103,6 +115,14 @@ public class BellmanFordAlgorithm {
         }
     }
 
+    /*
+      1. Start from source A
+      2. Set all distances to infinity
+      3. Relax all edges V-1 times
+      4. Update shorter paths
+      5. Check negative cycle
+      6. Print the shortest path
+     */
 
     public static void main(String[] args) {
 
