@@ -39,11 +39,6 @@ package linked_list;
         result : 7 -> 0 -> 8 (807)
 
         [data | next]
-
-
-
-
-
  */
 public class AddTwoNumbersLinkedList {
     // Node class
@@ -56,7 +51,8 @@ public class AddTwoNumbersLinkedList {
         }
     }
 
-    // Method to add two linked lists
+
+
     public static Node addTwoNumbers(Node l1, Node l2) {
 
         Node dummy = new Node(0); // dummy head
