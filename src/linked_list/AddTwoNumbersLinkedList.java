@@ -1,5 +1,48 @@
 package linked_list;
 
+
+/*
+     You are given two linked list
+     1. Each node contains a single digit (0-9).
+     2.The digits are stored in reverse order.
+
+     1. 678
+     2. 234
+
+     when reversed it is: 876
+     when reversed it is: 432
+        876 + 432 = 1308
+        when reversed it is: 8031
+
+     Two pointers : for lists
+     A variable : carrying
+     l1 = 6 → 7 → 8
+        l2 = 2 → 3 → 4
+        carry = 0
+        Step 1.
+        6 + 2  = 8
+        7+3 = 10
+        Write: 0
+        Carry : 1
+        Result : 8 -> 0
+        Step 3.
+        8 + 4 + 1 = 13
+        result : 8 -> 0 -> 13
+
+        Loop while
+        list1 not empty OR
+        list2 not empty OR
+        carry not zero
+
+        List1: 2-> 4 -> 3 (342)
+        List2: 5 -> 6 -> 4 (465)
+        result : 7 -> 0 -> 8 (807)
+
+        [data | next]
+
+
+
+ */
 public class AddTwoNumbersLinkedList {
     // Node class
     static class Node {
@@ -36,6 +79,9 @@ public class AddTwoNumbersLinkedList {
             carry = sum / 10;
 
             current.next = new Node(sum % 10);
+
+            // 10 % 10 = 0
+            // 0
             current = current.next;
         }
 
@@ -78,3 +124,4 @@ public class AddTwoNumbersLinkedList {
         printList(result);
     }
 }
+// BigInteger
