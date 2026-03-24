@@ -84,16 +84,16 @@
 
 ## Linked Lists
 
-- [ ] Singly Linked List
-- [ ] Doubly Linked List
-- [ ] Circular Linked List
+- [x] Singly Linked List
+- [x] Doubly Linked List
+- [x] Circular Linked List
 - [ ] Circular Doubly Linked List
-- [ ] Reverse a Linked List
+- [x] Reverse a Linked List
 - [ ] Detect a Cycle in a Linked List (Floyd's Algorithm)
 - [ ] Find the Middle of a Linked List
 - [ ] Merge Two Sorted Linked Lists
 - [ ] Remove Nth Node from the End of the List
-- [ ] Add Two Numbers Represented as Linked Lists
+- [x] Add Two Numbers Represented as Linked Lists
 - [ ] Clone a Linked List with Random Pointers
 - [ ] Flatten a Multilevel Doubly Linked List
 - [ ] LRU Cache using Doubly Linked List + HashMap
