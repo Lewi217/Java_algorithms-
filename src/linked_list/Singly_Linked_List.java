@@ -1,5 +1,13 @@
 package linked_list;
 
+/*
+ Singly Linked List implementation in Java
+ A singly linked list is a data structure that consists of nodes where each node contains data and a reference to the next node in the list. The last node's next reference points to null, indicating the end of the list. This structure allows for efficient insertion and deletion of nodes, especially at the beginning of the list, but it does not allow for backward traversal.
+ - Structure: nodes with data and next pointer, plus a head reference.
+ - Common operations: insert (head/tail), delete (given value), search, traversal.
+ - Time complexity: access/search O(n), insertion/deletion O(1) at head, O(n) at tail.
+ - Tradeoffs: uses less memory than doubly linked lists but only allows for forward traversal.
+ */
 public class Singly_Linked_List {
     // Node class
     static class Node {
